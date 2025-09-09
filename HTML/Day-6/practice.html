@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice - forms</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <label for="username">Full Name: </label>
+      <input
+        type="text"
+        name="UserFullName"
+        id="username"
+        placeholder="Enter your full name"
+      />
+      <br />
+      <br />
+      <label for="userEmail">Email:</label>
+      <input type="email" name="userEmail" id="userEmail" required />
+      <br />
+      <br />
+      <label for="userPassword">Password: </label>
+
+      <input type="password" name="userPassword" id="userPassword" />
+      <br />
+      <br />
+      <label for="userPhoneNumber">Phone Number :</label>
+      <input type="tel" name="userContactNum" id="userPhoneNumber" /> <br />
+      <br />
+      <label for="message">Message:</label>
+      <textarea name="userMessage" id="message"></textarea>
+      <button>send</button>
+    </form>
+  </body>
+</html>
