@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework - Forms</title>
+  </head>
+  <body>
+    <h1>IIUI Registeration Form</h1>
+    <form>
+      <label for="fullname">Full Name: </label>
+      <input type="text" name="username" id="fullname" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="userEmail" id="email" />
+      <br /><br />
+      <label for="phone">Phone:</label>
+      <input type="tel" name="userContact" id="phone" />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input type="password" name="userPassword" id="password" />
+      <br /><br />
+      <label>Gender:</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="others" />
+      <label for="others">others</label>
+      <br /><br />
+
+      <label for="dateofBirth">Date of Birth:</label>
+      <input type="date" name="userBirthday" id="dateofBirth" min="2001-01-01" max="2005-12-31" />
+      <br /><br />
+      <label for="school">School Name</label>
+      <input type="text" name="userSchool" id="school" />
+      <br /><br />
+      <label for="board">Select Board</label>
+      <select name="boardName" id="board">
+        <option value="" disabled selected>Select Board</option>
+        <option value="Sargodha">Sargodha</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Pindi">Pindi</option>
+        <option value="Kashmir">Kashmir</option>
+        <option value="Sindh">Sindh</option>
+      </select>
+      <br /><br />
+      <label for="passingyear">Passing Year:</label>
+      <input type="number" name="userpassingyear" id="passingyear" />
+      <br /><br />
+      <label for="center">Exam Center</label>
+      <select name="examcenter" id="center">
+        <option value="" disabled selected>Select Center:</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Pindi">Pindi</option></select
+      ><br /><br />
+      <button>Register</button>
+    </form>
+  </body>
+</html>

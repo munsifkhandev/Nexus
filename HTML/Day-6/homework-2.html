@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - HTML</title>
+  </head>
+  <body>
+    <h1>Employee Detail Form</h1>
+    <form>
+      <label for="username">Full Name: </label>
+      <input type="text" name="userFullName" id="username" />
+      <br /><br />
+      <label for="userEmail">Your Email:</label>
+      <input type="email" name="userEmail" id="userEmail" />
+      <br /><br />
+      <label for="userPhone">Phone Number:</label>
+      <input type="tel" name="userContactNum" id="userPhone" />
+      <br /><br />
+      <label>Gender:</label>
+      <input type="radio" name="Gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" id="others" value="others" />
+      <label for="others">Others</label>
+      <br /><br />
+      <label for="job-title">Job Title: </label>
+      <input type="text" name="jobTitle" id="job-title" />
+      <label for="dept">Departments: </label>
+      <select name="selectDept" id="dept">
+        <option value="" disabled selected>Select your Department</option>
+        <option value="">Finance</option>
+        <option value="Tech">Tech</option>
+        <option value="Engineer">Engineer</option>
+        <option value="Admin">Admin</option>
+      </select>
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
