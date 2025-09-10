@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Final Boss</title>
+  </head>
+  <body>
+    <h1>H/W - Health Details Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name: </label>
+        <input type="text" name="username" id="name" />
+        <br /><br />
+
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" name="userDOB" id="dateofbirth" />
+        <br /><br />
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="others" />
+        <label for="others">Others</label>
+        <br /><br />
+        <label for="sex">Gender 2.0:</label>
+        <select name="sex" id="sex">
+          <option value="" disabled selected>Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+        </select>
+        <br /><br />
+
+        <label for="contactno">Phone:</label>
+        <input type="tel" name="contactno" id="contactno" />
+      </fieldset>
+      <fieldset>
+        <legend>Medical History</legend>
+        <label for="bloodgroup">Blood Group:</label>
+        <select name="bloodgroup" id="bloodgroup">
+          <option value="" disabled selected>Select</option>
+          <option value="A+">A+</option>
+          <option value="B+">B+</option>
+          <option value="0-">0-</option>
+        </select>
+        <br /><br />
+        <label>Do you wear any glasses?</label> <br /><br />
+
+        <input type="radio" name="glassescheck" id="yes" value="yes" />
+        <label for="yes">Yes</label> <br /><br />
+
+        <input type="radio" name="glassescheck" id="no" value="no" />
+
+        <label for="no">No</label> <br /><br />
+
+        <label for="existingconditions">Pre-Existing Conditions:</label>
+        <br /><br />
+
+        <textarea
+          rows="6"
+          cols="40"
+          name="existingconditions"
+          id="existingconditions"
+          placeholder="List any Pre-existing medical conditions"
+        ></textarea>
+        <br /><br />
+
+        <label>Alergies:</label><br />
+        <input type="checkbox" name="Alergies" id="pollen" value="Pollen" />
+        <label for="pollen">Pollen</label>
+        <br />
+        <input type="checkbox" name="Alergies" id="peanuts" value="Peanuts" />
+        <label for="peanuts">Peanuts</label>
+        <br />
+        <input type="checkbox" name="Alergies" id="latex" value="Latex" />
+        <label for="latex">Latex</label>
+        <br />
+        <input type="checkbox" name="Alergies" id="none" />
+        <label for="none">None</label>
+        <br /><br />
+        <label for="listmedications">Current Medications :</label>
+        <br /><br />
+
+        <textarea
+          rows="6"
+          cols="40"
+          name="existingconditions"
+          id="existingconditions"
+          placeholder="List any Current Medications"
+        ></textarea>
+        <br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Emergency Contact</legend>
+        <label for="emergerncycontact">Emergency Contact Name:</label>
+        <input type="text" name="emergerncycontact" id="emergerncycontact" />
+        <br /><br />
+        <label for="emergerncycontactphone">Emergency Contact Phone:</label>
+        <input
+          type="tel"
+          name="emergerncycontactphone"
+          id="emergerncycontactphone"
+        />
+        <br /><br />
+        <label for="emergerncycontactrelationship">
+          Relationship to Emergency Contact :
+        </label>
+        <input
+          type="tel"
+          name="emergerncycontactrelationship"
+          id="emergerncycontactrelationship"
+        />
+      </fieldset>
+      <br /><br />
+      <button>submit</button>
+    </form>
+  </body>
+</html>
