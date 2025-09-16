@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "init": "^0.1.2",
+    "react-bootstrap": "^2.10.10",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.1"
+  }
+}
